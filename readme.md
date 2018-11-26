@@ -145,7 +145,7 @@ When I do this, I end with a view like this (more or less):
 
 <img width="66%" src="img/SmallCameraPerspective.png">
 
-To make the view be all of the 3D scene, you need to 
+To make the view be all of the 3D scene, you need to enter camera mode, and then press "Home".
 
 
 #### Gemstone
