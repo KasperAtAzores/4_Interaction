@@ -125,9 +125,33 @@ As you know, I have drawn some of my examples from [the car game tutorial](http:
 
 There is a [section on getting the camera to work](https://www.youtube.com/watch?v=kJNnFw0Qlic) as shown in class. 
 
+I was not able to demo the camera in class, but here is what you need to do
+
+<img width="50%" src="img/Camera_actuator.png">
+
+I had forgotten to set the min and max distance, so the camera plastered itself on the car. The different properties of the camera actuator are:
+
+* `Camera Object`- the object the camera will be following
+* `Height`- how high above the `Camera Object` the camera is.
+* `Axis`- what is forward on the `Camera Object`. 
+* `Min`and `Max` the distance behind (with respect to the `Axis`) the camera will follow the `Camera Object`.
+* `Dampning`
+
+There are two things more - you have to activate the camera before you start the game. Setting the view to be the active camera ("Numpad 0")
+
+<img width="66%" src="img/Active_camera.png">
+
+When I do this, I end with a view like this (more or less):
+
+<img width="66%" src="img/SmallCameraPerspective.png">
+
+To make the view be all of the 3D scene, you need to 
+
+
+#### Gemstone
 I could not resist, and made a gemstone mesh (see the the file `gemstone.py`). I cannot just do such thing in my head, and had to draw something to help me.
 
-<img width="50%" src="img/Gemstone.png">
+<img width="66%" src="img/Gemstone.png">
 
 Honestly, it took me several tries until I finally wrote this little function:
 
